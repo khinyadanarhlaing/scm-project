@@ -6,6 +6,6 @@ public class App {
     }
 
     public static int add(int a, int b) {
-        return a + b; // ❌ Bug: should be '+' but we used '-'
+        return a - b; // ❌ Bug: should be '+' but we used '-'
     }
 }
